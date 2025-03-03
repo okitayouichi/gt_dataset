@@ -2,7 +2,7 @@
 
 This is a project for a guitar dry signal dataset.
 This repository contains a dataset generation program.
-This project is a part of the project "fx_estimate" and the dataset is intended to be used for generating a wet signal dataset [gtfx_dataset](https://github.com/okitayouichi/gtfx_dataset) and an audio effect estimation project [fx_estimate](https://github.com/okitayouichi/fx_estimate).
+This project is a part of the project "fx_estimate" and the dataset is intended to be used for generating a wet signal dataset [gtfx_dataset](https://github.com/okitayouichi/gtfx_dataset) and an audio effect estimation project [dry_cond_fx_estimate](https://github.com/okitayouichi/dry_cond_fx_estimate).
 The dataset generation program is a ReaScript for the Reaper written in Python.
 
 ## Dataset Overview
@@ -18,7 +18,7 @@ A 2-second interval is added at the end to capture the lingering sound, resultin
 
 ## Setup & Dataset Generation
 
-This program has only been tested on Windows 11, Reaper v7.25 and Python 3.13.0.
+This program has only been tested on Windows 11, Reaper v7.25, and Python 3.13.0.
 
 1. Install [Reaper](https://www.reaper.fm/) and activate licenses.
 2. Install VSTi plugins listed above and activate licenses.
